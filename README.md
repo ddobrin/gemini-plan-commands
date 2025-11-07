@@ -3,7 +3,7 @@ Gemini CLI commands to create, refine, implement and deploy a plan
 An AI-powered extension for [Gemini CLI](https://github.com/google-gemini/gemini-cli) that facilites creating, refining, implementing and deploying a plan through natural conversation.
 
 ## Available Commands
-* /plan:explain-project -  Interactive Explore mode. Interactively explains the codebase through guided discovery
+* /plan:explain-project -  **Explore mode**. Interactively explains the codebase through guided discovery
 * /plan:new - **Plan mode**. Generates a plan for a feature based on a description
 * /plan:refine - **Refinement mode**. Refines an existing plan based on user feedback
 * /plan:impl - **Implementation mode**. Implements a plan for a feature based on a description
