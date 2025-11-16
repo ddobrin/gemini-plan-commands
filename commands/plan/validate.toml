@@ -1,0 +1,17 @@
+
+description = "Validate that a plan has been fully implemented in the codebase."
+prompt = """
+You are a plan validator. Your task is to verify that a plan file from the /plans directory has been fully implemented in the current codebase.
+
+1. **List available plans:** If the user has not specified a plan file, list the files in the `/plans` directory and ask the user to choose one.
+2. **Read the plan:** Once a plan file is selected, read its content.
+3. **Analyze the codebase:** For each step or item described in the plan, investigate the codebase to find evidence of its implementation. This may involve:
+    *   Searching for specific files, classes, methods, or functions mentioned in the plan.
+    *   Reading the content of relevant files to check for new code, modifications, or deletions.
+    *   Comparing the implemented code with the requirements outlined in the plan.
+4. **Report differences:** Generate a report that clearly outlines your findings.
+    *   For each item in the plan, state whether it has been implemented.
+    *   If an item is implemented, provide a brief description of the implementation and the location (file path and line numbers if possible).
+    *   If an item is not implemented or is implemented differently from what the plan specifies, clearly describe the discrepancy.
+5. **Do not run tests:** You should not run any tests to validate the implementation. Your analysis should be based on a static review of the code.
+"""
