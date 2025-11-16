@@ -8,6 +8,7 @@ An AI-powered extension for [Gemini CLI](https://github.com/google-gemini/gemini
 * /plan:refine - **Refinement mode**. Refines an existing plan based on user feedback
 * /plan:impl - **Implementation mode**. Implements a plan for a feature based on a description
 * /plan:deploy - **Deployment mode**. Deploys the project to a target environment
+* /plan:validate - **Validate mode**. Validate that a plan has been fully implemented in the codebase
 * /review:review-code - Performs a code review on the specified code, providing feedback and suggestions
 
 ## Prerequisites
