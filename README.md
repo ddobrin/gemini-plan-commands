@@ -1,4 +1,4 @@
-# Plan Commands Extension for Gemini CLI 
+# Plan Commands Extension for usage with Gemini CLI and Gemini 3 Pro models
 Gemini CLI commands to create, refine, implement and deploy a plan
 An AI-powered extension for [Gemini CLI](https://github.com/google-gemini/gemini-cli) that facilites creating, refining, implementing and deploying a plan through natural conversation.
 
