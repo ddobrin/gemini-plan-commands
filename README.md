@@ -13,6 +13,7 @@ An AI-powered extension for [Gemini CLI](https://github.com/google-gemini/gemini
 * /plan:validate - **Validate mode**. Validate that a plan has been fully implemented in the codebase
 * /review:review-code - Performs a code review on the specified code, providing feedback and suggestions
 * /refactor:simplify-code - Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality
+* /test:performance-tests - Generates a load testing script using the 'oha' library
 
 ## Prerequisites
 Install the [Gemini CLI](https://github.com/google-gemini/gemini-cli)
