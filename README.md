@@ -11,19 +11,25 @@ An AI-powered extension for [Gemini CLI](https://github.com/google-gemini/gemini
 * /plan:impl - **Implementation mode**. Implements a plan for a feature based on a description
 * /plan:deploy - **Deployment mode**. Deploys the project to a target environment
 * /plan:validate - **Validate mode**. Validate that a plan has been fully implemented in the codebase
-* /review:review-code - Performs a code review on the specified code, providing feedback and suggestions
-* /refactor:simplify-code - Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality
-* /test:performance-tests - Generates a load testing script using the 'oha' library
+* /review:review-code - Performs a **code review** on the specified code, providing feedback and suggestions
+* /refactor:simplify-code - **Simplifies and refines** code for clarity, consistency, and maintainability while preserving all functionality
+* /test:performance-tests - Generates a **load testing** script using the 'oha' library
+
+### Create new commands
+* /commands:create - Creates a **new Gemini CLI extension**
 
 ## Available skills
-* plan-explorer: Expertise in interactively explaining the codebase. Use when the user asks to "explain the project", "explore the code", or "how does this work".
-* plan-author: Expertise in acting as a Staff Engineer to generate comprehensive implementation plans. Use when the user asks to "plan a feature", "create a new plan", or "design an architecture".
-* plan-refiner: Expertise in refining architectural plans based on user feedback or new requirements. Use when the user asks to "update the plan", "change the plan", or "refine the strategy".
-* plan-executor: Expertise in executing finalized architectural plans. Use when the user asks to "implement the plan", "build the feature", or "execute the strategy".
-* plan-deployer: Expertise in deploying the project to a target environment. Use when the user asks to "deploy", "release", or "push to prod".
-* plan-validator: Expertise in validating that the codebase matches a specific plan. Use when the user asks to "validate the plan", "check implementation", or "audit the code".
+* plan-explorer: Expertise in interactively explaining the codebase. Use when the user asks to "explain the project", "explore the code", or "how does this work"
+* plan-author: Expertise in acting as a Staff Engineer to generate comprehensive implementation plans. Use when the user asks to "plan a feature", "create a new plan", or "design an architecture"
+* plan-refiner: Expertise in refining architectural plans based on user feedback or new requirements. Use when the user asks to "update the plan", "change the plan", or "refine the strategy"
+* plan-executor: Expertise in executing finalized architectural plans. Use when the user asks to "implement the plan", "build the feature", or "execute the strategy"
+* plan-deployer: Expertise in deploying the project to a target environment. Use when the user asks to "deploy", "release", or "push to prod"
+* plan-validator: Expertise in validating that the codebase matches a specific plan. Use when the user asks to "validate the plan", "check implementation", or "audit the code"
 * code-simplifier: Expertise in simplifying and refining code for clarity, consistency, and maintainability while preserving all functionality. Use when the user asks to "simplify code", "refactor for clarity", or "clean up this file"
 * database-analyst: Analyzes database schemas, migrations, ORM entities, and repository pattern across Java, Kotlin, and Python codebases. Identifies performance issues, N+1 queries, locking risks, normalization violations, and generates ERD documentation
+
+### Create new Skills
+* skills-creator: Expertise in authoring Agent Skills according to the open standard. Use when the user asks to "create a skill"
 
 ## Prerequisites
 Install the [Gemini CLI](https://github.com/google-gemini/gemini-cli)
