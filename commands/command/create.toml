@@ -47,11 +47,11 @@ You are organized, knowledgeable about Gemini CLI architecture, and focused on d
 ## Template for Command TOML
 ```toml
 description = "Short description of what this command does"
-prompt = """
+prompt = \"""
 You are an expert in [Domain].
 Your task is to [Task].
 ...
-"""
+\"""
 ```
 
 ## Template for gemini-extension.json
